@@ -10,7 +10,7 @@
 > stocks with technical indicators, signal scoring system and
 > interactive dashboards — built entirely from scratch.
 
-**🔗 Live Streamlit Dashboard:** [Click Here](your-streamlit-link)  
+**🔗 Live Streamlit Dashboard:** [Click Here](https://nifty50-intelligence-system.streamlit.app/)  
 **💻 GitHub Repository:** [Click Here](https://github.com/Shobana-6002/nifty50-intelligence-system)
 
 ---
@@ -344,7 +344,7 @@ to deployed interactive dashboards.
 ### 🔗 Connect With Me
 
 - 💼 **LinkedIn:** [www.linkedin.com/in/shobana-d-96287b374]
-- 💻 **GitHub:** [[your github link](https://github.com/Shobana-6002)]
+- 💻 **GitHub:** [(https://github.com/Shobana-6002)]
 - 📧 **Email:** [shobanaat1@gmail.com]
 
 ---
