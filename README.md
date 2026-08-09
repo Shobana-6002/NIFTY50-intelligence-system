@@ -47,7 +47,7 @@ Automated Daily Update Pipeline
 
 ### Overview Tab
 
-![Overview](screenshots\streamlit_overview.png.png)
+![Overview](./screenshots/streamlit_overview.png.png)
 
 ### Market Analysis Tab
 
