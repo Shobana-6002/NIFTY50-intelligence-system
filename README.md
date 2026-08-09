@@ -138,13 +138,13 @@ MACD histogram negative → -1 (bearish momentum)
 Price below lower BB → +1 (statistically undervalued)
 Price above upper BB → -1 (statistically overvalued)
 
-| Total Score │ Signal         |
+| Total Score | Signal         |
 | -----------------------------|
-| +2 or +3    │ STRONG BUY 🟢  |
-| +1          │ WEAK BUY 🔵    |
-| 0           │ NEUTRAL ⚪     |
-| -1          │ WEAK SELL 🟡   |
-| -2 or -3    │ STRONG SELL 🔴 |
+| +2 or +3    | STRONG BUY 🟢  |
+| +1          | WEAK BUY 🔵    |
+| 0           | NEUTRAL ⚪     |
+| -1          | WEAK SELL 🟡   |
+| -2 or -3    | STRONG SELL 🔴 |
 
 ---
 
@@ -166,51 +166,53 @@ Price above upper BB → -1 (statistically overvalued)
 
 ## 📁 Project Structure
 
-''' 
+```text
 nifty50-intelligence-system/
 │
-├── app.py ← Streamlit dashboard (4 tabs)
-├── update_data.py ← Daily auto update script
-├── indicator_generation.py ← RSI, MACD, BB calculation
-├── requirements.txt ← Python dependencies
-├── README.md ← Project documentation
+├── app.py                    ← Streamlit dashboard (4 tabs)
+├── update_data.py            ← Daily auto update script
+├── indicator_generation.py   ← RSI, MACD, BB calculation
+├── requirements.txt          ← Python dependencies
+├── README.md                 ← Project documentation
 │
 ├── data/
-│ └── processed/
-│ ├── cleaned_data.csv ← 5 years OHLCV + indicators
-│ ├── final_df.csv ← Full indicators dataset
-│ └── current_signal.csv ← Latest signals (50 stocks)
-│ └── raw/
-│ ├── ADANIENT.NS.csv
-│ ├── ADANIPORTS.NS.csv
-│ ├── APOLLOHOSP.NS.csv
-│ ├── ...
-│ └── 50 stock CSV files
+│   ├── raw/                  ← Raw data downloaded from yfinance
+│   │   ├── ADANIENT.NS.csv
+│   │   ├── ADANIPORTS.NS.csv
+│   │   ├── APOLLOHOSP.NS.csv
+│   │   ├── ...
+│   │   └── 50 stock CSV files
+│   │
+│   └── processed/
+│       ├── cleaned_data.csv      ← 5 years OHLCV + indicators
+│       ├── final_df.csv          ← Full indicators dataset
+│       └── current_signal.csv    ← Latest signals (50 stocks)
+│
 ├── notebooks/
-│ ├── 01_data_collection.ipynb
-│ ├── 02_data_cleaning.ipynb
-│ ├── 03_eda.ipynb
-│ └── 04_technical_indicators.ipynb
+│   ├── 01_data_collection.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_eda.ipynb
+│   └── 04_technical_indicators.ipynb
 │
 ├── powerbi/
-│ └── NIFTY50_Dashboard.pbix ← Power BI dashboard file
+│   └── NIFTY50_Dashboard.pbix   ← Power BI dashboard file
 │
 ├── screenshots/
-│ ├── streamlit_overview.png
-│ ├── streamlit_market1.png
-│ ├── streamlit_market2.png
-│ ├── streamlit_stock1.png
-│ ├── streamlit_stock2.png
-│ ├── streamlit_signal.png
-│ ├── powerbi_page1.png
-│ ├── powerbi_page2.png
-│ ├── powerbi_page3.png
-│ └── powerbi_page4.png
+│   ├── streamlit_overview.png
+│   ├── streamlit_market1.png
+│   ├── streamlit_market2.png
+│   ├── streamlit_stock1.png
+│   ├── streamlit_stock2.png
+│   ├── streamlit_signal.png
+│   ├── powerbi_page1.png
+│   ├── powerbi_page2.png
+│   ├── powerbi_page3.png
+│   └── powerbi_page4.png
 │
 └── .github/
-└── workflows/
-└── update.yml ← GitHub Actions automation
-'''
+    └── workflows/
+        └── update.yml           ← GitHub Actions automation
+```
 
 ---
 
