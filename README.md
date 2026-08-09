@@ -6,19 +6,19 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Latest-green?style=flat-square&logo=pandas)
 ![Plotly](https://img.shields.io/badge/Plotly-Latest-blue?style=flat-square&logo=plotly)
 
-> An end-to-end stock market analytics platform tracking 50 NSE listed 
-> stocks with technical indicators, signal scoring system and 
+> An end-to-end stock market analytics platform tracking 50 NSE listed
+> stocks with technical indicators, signal scoring system and
 > interactive dashboards — built entirely from scratch.
 
-**🔗 Live Streamlit Dashboard:** [Click Here](your-streamlit-link)    
-**💻 GitHub Repository:** [Click Here](your-github-link)
+**🔗 Live Streamlit Dashboard:** [Click Here](your-streamlit-link)  
+**💻 GitHub Repository:** [Click Here](https://github.com/Shobana-6002/nifty50-intelligence-system)
 
 ---
 
 ## 📌 What Is This?
 
-The NIFTY 50 Market Intelligence System is a complete data analytics 
-product that helps investors understand market conditions through 
+The NIFTY 50 Market Intelligence System is a complete data analytics
+product that helps investors understand market conditions through
 data-driven insights.
 
 This project covers the **complete end-to-end data analytics pipeline:**
@@ -27,8 +27,8 @@ This project covers the **complete end-to-end data analytics pipeline:**
 
 ## 📌 What Is This?
 
-The NIFTY 50 Market Intelligence System is a complete data analytics 
-product that helps investors understand market conditions through 
+The NIFTY 50 Market Intelligence System is a complete data analytics
+product that helps investors understand market conditions through
 data-driven insights.
 
 This project covers the **complete end-to-end data analytics pipeline:**
@@ -41,36 +41,44 @@ Automated Daily Update Pipeline
 
 ---
 
-## 🖥️ Dashboard Screenshots
+# 🖥️ Dashboard Screenshots
 
-### Streamlit Dashboard
+## Streamlit Dashboard
 
-#### Overview Tab
+### Overview Tab
+
 ![Overview](screenshots/streamlit_overview.png)
 
-#### Market Analysis Tab  
-![Market Analysis](screenshots/streamlit_market1.png)(screenshots/streamlit_market2.png)
+### Market Analysis Tab
 
-#### Stock Analysis Tab
-![Stock Analysis](screenshots/streamlit_stock1.png)(screenshots/streamlit_stock2.png)
+![Market Analysis](screenshots/streamlit_market1.png)
 
-#### Signal Dashboard Tab
+### Stock Analysis Tab
+
+![Stock Analysis](screenshots/streamlit_stock1.png)
+
+### Signal Dashboard Tab
+
 ![Signal Dashboard](screenshots/streamlit_signal.png)
 
 ---
 
-### Power BI Dashboard
+## Power BI Dashboard
 
-#### Executive Summary
+### Executive Summary
+
 ![Executive Summary](screenshots/powerbi_page1.png)
 
-#### Market Analysis
+### Market Analysis
+
 ![Market Analysis](screenshots/powerbi_page2.png)
 
-#### Stock Analysis
+### Stock Analysis
+
 ![Stock Analysis](screenshots/powerbi_page3.png)
 
-#### Signal Dashboard
+### Signal Dashboard
+
 ![Signal Dashboard](screenshots/powerbi_page4.png)
 
 ---
@@ -78,12 +86,14 @@ Automated Daily Update Pipeline
 ## ✨ Features
 
 ### 🏠 Market Overview
+
 - Real-time market sentiment score
 - Bullish / Bearish / Neutral stock count
 - Top 5 gainers and losers of the day
 - Market mood indicator with percentage
 
 ### 📊 Market Analysis
+
 - Sector performance comparison
 - NIFTY 50 interactive heatmap (treemap)
 - Risk vs Return scatter plot (colored by sector)
@@ -91,6 +101,7 @@ Automated Daily Update Pipeline
 - Duration filter: 1 Week → 5 Years
 
 ### 🔍 Stock Analysis
+
 - Individual stock deep dive for all 50 stocks
 - Price chart with MA20 and MA200 overlaid
 - RSI chart with overbought/oversold zones
@@ -99,6 +110,7 @@ Automated Daily Update Pipeline
 - Plain English signal explanation
 
 ### 🎯 Signal Dashboard
+
 - Buy/Sell/Hold signals for all 50 stocks
 - Top 3 buy recommendations with reasoning
 - Signal distribution visualization
@@ -109,11 +121,11 @@ Automated Daily Update Pipeline
 
 ## 🛠️ Technical Indicators (Built From Scratch)
 
-| Indicator | Period | What It Measures |
-|-----------|--------|-----------------|
-| RSI | 14 days | Overbought / Oversold conditions |
-| MACD | 12, 26, 9 days | Momentum direction and strength |
-| Bollinger Bands | 20 days | Price extremes and volatility |
+| Indicator       | Period         | What It Measures                 |
+| --------------- | -------------- | -------------------------------- |
+| RSI             | 14 days        | Overbought / Oversold conditions |
+| MACD            | 12, 26, 9 days | Momentum direction and strength  |
+| Bollinger Bands | 20 days        | Price extremes and volatility    |
 
 ### Signal Scoring System
 
@@ -126,35 +138,35 @@ MACD histogram negative → -1 (bearish momentum)
 Price below lower BB → +1 (statistically undervalued)
 Price above upper BB → -1 (statistically overvalued)
 
-─────────────────────────────────
-Total Score │ Signal
-─────────────────────────────────
-+2 or +3 │ STRONG BUY 🟢
-+1 │ WEAK BUY 🔵
-0 │ NEUTRAL ⚪
--1 │ WEAK SELL 🟡
--2 or -3 │ STRONG SELL 🔴
-─────────────────────────────────
+| Total Score │ Signal      |
+| ------------------------- |
+| +2 or +3│ STRONG BUY 🟢   |
+| +1 │ WEAK BUY 🔵          |
+| 0 │ NEUTRAL ⚪            |
+| -1 │ WEAK SELL 🟡         |
+| -2 or -3 │ STRONG SELL 🔴 |
+
 ---
 
 ## 💻 Tech Stack
 
-| Layer | Technology | Purpose |
-|-------|-----------|---------|
-| Language | Python 3.10 | Core programming |
-| Data Collection | yfinance | NSE stock data |
-| Data Processing | Pandas, NumPy | Data manipulation |
-| Visualization | Plotly | Interactive charts |
-| Web Dashboard | Streamlit | Live web application |
-| BI Dashboard | Power BI + DAX | Business intelligence |
-| Automation | GitHub Actions | Daily data updates |
-| Deployment | Streamlit Cloud | Cloud hosting |
-| Version Control | Git + GitHub | Code management |
+| Layer           | Technology      | Purpose               |
+| --------------- | --------------- | --------------------- |
+| Language        | Python 3.10     | Core programming      |
+| Data Collection | yfinance        | NSE stock data        |
+| Data Processing | Pandas, NumPy   | Data manipulation     |
+| Visualization   | Plotly          | Interactive charts    |
+| Web Dashboard   | Streamlit       | Live web application  |
+| BI Dashboard    | Power BI + DAX  | Business intelligence |
+| Automation      | GitHub Actions  | Daily data updates    |
+| Deployment      | Streamlit Cloud | Cloud hosting         |
+| Version Control | Git + GitHub    | Code management       |
 
 ---
 
 ## 📁 Project Structure
 
+''' text
 nifty50-intelligence-system/
 │
 ├── app.py ← Streamlit dashboard (4 tabs)
@@ -165,15 +177,15 @@ nifty50-intelligence-system/
 │
 ├── data/
 │ └── processed/
-│       ├── cleaned_data.csv ← 5 years OHLCV + indicators
-│       ├── final_df.csv ← Full indicators dataset
-│       └── current_signal.csv ← Latest signals (50 stocks)
-│  └── raw/
-│       ├── ADANIENT.NS.csv
-│       ├── ADANIPORTS.NS.csv
-│       ├── APOLLOHOSP.NS.csv
-│       ├── ...
-│       └── 50 stock CSV files
+│ ├── cleaned_data.csv ← 5 years OHLCV + indicators
+│ ├── final_df.csv ← Full indicators dataset
+│ └── current_signal.csv ← Latest signals (50 stocks)
+│ └── raw/
+│ ├── ADANIENT.NS.csv
+│ ├── ADANIPORTS.NS.csv
+│ ├── APOLLOHOSP.NS.csv
+│ ├── ...
+│ └── 50 stock CSV files
 ├── notebooks/
 │ ├── 01_data_collection.ipynb
 │ ├── 02_data_cleaning.ipynb
@@ -196,9 +208,10 @@ nifty50-intelligence-system/
 │ └── powerbi_page4.png
 │
 └── .github/
-      └── workflows/
-      └── update.yml ← GitHub Actions automation
-  
+└── workflows/
+└── update.yml ← GitHub Actions automation
+'''
+
 ---
 
 ## 🔄 Data Pipeline
@@ -233,22 +246,23 @@ Power BI refreshes from updated files
 
 ## 🔍 Key Findings (5 Year Analysis 2021–2026)
 
-| Metric | Finding |
-|--------|---------|
-| Best Performing Stock | BEL → **+759% return** |
-| Worst Performing Stock | TRENT → **-31.8%** (recent correction) |
-| Best Performing Sector | Defence & Telecom |
-| Worst Performing Sector | IT (TCS -14%, Wipro -17%) |
-| Most Volatile Stock | ADANIENT (49% annual volatility) |
-| Least Volatile Stock | NESTLEIND (19% annual volatility) |
-| Market Peak | 2024 – 2025 |
-| Biggest Market Event | 2023 Hindenburg report crash |
+| Metric                  | Finding                                |
+| ----------------------- | -------------------------------------- |
+| Best Performing Stock   | BEL → **+759% return**                 |
+| Worst Performing Stock  | TRENT → **-31.8%** (recent correction) |
+| Best Performing Sector  | Defence & Telecom                      |
+| Worst Performing Sector | IT (TCS -14%, Wipro -17%)              |
+| Most Volatile Stock     | ADANIENT (49% annual volatility)       |
+| Least Volatile Stock    | NESTLEIND (19% annual volatility)      |
+| Market Peak             | 2024 – 2025                            |
+| Biggest Market Event    | 2023 Hindenburg report crash           |
 
 ---
 
 ## 🚀 How To Run Locally
 
 ### Prerequisites
+
 ```bash
 Python 3.8+
 pip
@@ -258,7 +272,7 @@ pip
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/nifty50-intelligence-system
+git clone https://github.com/Shobana-6002/nifty50-intelligence-system
 cd nifty50-intelligence-system
 
 # 2. Install dependencies
@@ -271,6 +285,7 @@ streamlit run app.py
 ```
 
 ### To Update Data Manually
+
 ```bash
 python update_data.py
 ```
@@ -278,6 +293,7 @@ python update_data.py
 ---
 
 ## 📦 Requirements
+
 streamlit
 pandas
 numpy
@@ -293,8 +309,7 @@ The project uses GitHub Actions to automatically update data every weekday:
 
 ```yaml
 Schedule: Every weekday at 6:00 PM IST
-Process:
-  1. Download latest market data
+Process: 1. Download latest market data
   2. Recalculate all indicators
   3. Update signal scores
   4. Commit updated CSVs to repository
@@ -315,19 +330,19 @@ Process:
 
 ## 👤 About
 
-**Built by Shobana**  
-B.Tech CSBS | 3rd Year  
+**Built by Shobana.D**  
+B.Tech CSBS | 3rd Year
 
-This project was built to learn end-to-end data analytics 
+This project was built to learn end-to-end data analytics
 while exploring Indian stock market analysis from scratch.
-Starting from zero stock market knowledge, this project 
-covers the complete analytics pipeline from data collection 
+Starting from zero stock market knowledge, this project
+covers the complete analytics pipeline from data collection
 to deployed interactive dashboards.
 
 ### 🔗 Connect With Me
-- 💼 **LinkedIn:** [your linkedin link]
-- 💻 **GitHub:** [your github link]
-- 📧 **Email:** [your email]
+
+- 💼 **LinkedIn:** [www.linkedin.com/in/shobana-d-96287b374]
+- 💻 **GitHub:** [[your github link](https://github.com/Shobana-6002)]
+- 📧 **Email:** [shobanaat1@gmail.com]
 
 ---
-
