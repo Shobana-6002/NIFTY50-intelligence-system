@@ -47,15 +47,15 @@ Automated Daily Update Pipeline
 
 ### Overview Tab
 
-![Overview](./screenshots/streamlit_overview.png.png)
+![Overview](./screenshots/streamlit_overview.png)
 
 ### Market Analysis Tab
 
-![Market Analysis](./screenshots/streamlit_market1.png)
+![Market Analysis](./screenshots/streamlit_market1.png)(./screenshots/streamlit_market2.png)
 
 ### Stock Analysis Tab
 
-![Stock Analysis](./screenshots/streamlit_stock1.png)
+![Stock Analysis](./screenshots/streamlit_stock1.png)(./screenshots/streamlit_stock2.png)
 
 ### Signal Dashboard Tab
 
