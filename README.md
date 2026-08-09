@@ -47,19 +47,19 @@ Automated Daily Update Pipeline
 
 ### Overview Tab
 
-![Overview](screenshots/streamlit_overview.png)
+![Overview](./screenshots/streamlit_overview.png)
 
 ### Market Analysis Tab
 
-![Market Analysis](screenshots/streamlit_market1.png)
+![Market Analysis](./screenshots/streamlit_market1.png)
 
 ### Stock Analysis Tab
 
-![Stock Analysis](screenshots/streamlit_stock1.png)
+![Stock Analysis](./screenshots/streamlit_stock1.png)
 
 ### Signal Dashboard Tab
 
-![Signal Dashboard](screenshots/streamlit_signal.png)
+![Signal Dashboard](./screenshots/streamlit_signal.png)
 
 ---
 
@@ -67,19 +67,19 @@ Automated Daily Update Pipeline
 
 ### Executive Summary
 
-![Executive Summary](screenshots/powerbi_page1.png)
+![Executive Summary](./screenshots/powerbi_page1.png)
 
 ### Market Analysis
 
-![Market Analysis](screenshots/powerbi_page2.png)
+![Market Analysis](./screenshots/powerbi_page2.png)
 
 ### Stock Analysis
 
-![Stock Analysis](screenshots/powerbi_page3.png)
+![Stock Analysis](./screenshots/powerbi_page3.png)
 
 ### Signal Dashboard
 
-![Signal Dashboard](screenshots/powerbi_page4.png)
+![Signal Dashboard](./screenshots/powerbi_page4.png)
 
 ---
 
@@ -138,13 +138,13 @@ MACD histogram negative → -1 (bearish momentum)
 Price below lower BB → +1 (statistically undervalued)
 Price above upper BB → -1 (statistically overvalued)
 
-| Total Score │ Signal      |
-| ------------------------- |
-| +2 or +3│ STRONG BUY 🟢   |
-| +1 │ WEAK BUY 🔵          |
-| 0 │ NEUTRAL ⚪            |
-| -1 │ WEAK SELL 🟡         |
-| -2 or -3 │ STRONG SELL 🔴 |
+| Total Score │ Signal         |
+| -----------------------------|
+| +2 or +3    │ STRONG BUY 🟢  |
+| +1          │ WEAK BUY 🔵    |
+| 0           │ NEUTRAL ⚪     |
+| -1          │ WEAK SELL 🟡   |
+| -2 or -3    │ STRONG SELL 🔴 |
 
 ---
 
@@ -166,7 +166,7 @@ Price above upper BB → -1 (statistically overvalued)
 
 ## 📁 Project Structure
 
-''' text
+''' 
 nifty50-intelligence-system/
 │
 ├── app.py ← Streamlit dashboard (4 tabs)
