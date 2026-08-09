@@ -9,7 +9,8 @@ on:
   workflow_dispatch:
     # allows manual trigger from GitHub UI
     # useful for testing
-
+  permissions:
+    contents: write
 jobs:
   update-data:
     runs-on: ubuntu-latest
