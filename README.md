@@ -47,7 +47,7 @@ Automated Daily Update Pipeline
 
 ### Overview Tab
 
-![Overview](./screenshots/streamlit_overview.png)
+![Overview](C:\Users\shoba\stock_analysis\screenshots\streamlit_overview.png.png)
 
 ### Market Analysis Tab
 
