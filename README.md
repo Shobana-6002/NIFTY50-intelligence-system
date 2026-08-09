@@ -138,13 +138,13 @@ MACD histogram negative → -1 (bearish momentum)
 Price below lower BB → +1 (statistically undervalued)
 Price above upper BB → -1 (statistically overvalued)
 
-| Total Score | Signal         |
-| -----------------------------|
-| +2 or +3    | STRONG BUY 🟢  |
-| +1          | WEAK BUY 🔵    |
-| 0           | NEUTRAL ⚪     |
-| -1          | WEAK SELL 🟡   |
-| -2 or -3    | STRONG SELL 🔴 |
+| Total Score | Signal |
+|---|---|
+| +2 or +3 | STRONG BUY 🟢 |
+| +1 | WEAK BUY 🔵 |
+| 0 | NEUTRAL ⚪ |
+| -1 | WEAK SELL 🟡 |
+| -2 or -3 | STRONG SELL 🔴 |
 
 ---
 
