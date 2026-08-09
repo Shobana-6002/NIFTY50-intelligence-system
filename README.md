@@ -10,19 +10,6 @@
 > stocks with technical indicators, signal scoring system and 
 > interactive dashboards — built entirely from scratch.
 
-**🔗 Live Streamlit Dashboard:** [Click Here](your-streamlit-link)  
-# 📈 NIFTY 50 Market Intelligence System
-
-![Python](https://img.shields.io/badge/Python-3.10-blue?style=flat-square&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-Latest-red?style=flat-square&logo=streamlit)
-![Power BI](https://img.shields.io/badge/PowerBI-Latest-yellow?style=flat-square&logo=powerbi)
-![Pandas](https://img.shields.io/badge/Pandas-Latest-green?style=flat-square&logo=pandas)
-![Plotly](https://img.shields.io/badge/Plotly-Latest-blue?style=flat-square&logo=plotly)
-
-> An end-to-end stock market analytics platform tracking 50 NSE listed 
-> stocks with technical indicators, signal scoring system and 
-> interactive dashboards — built entirely from scratch.
-
 **🔗 Live Streamlit Dashboard:** [Click Here](your-streamlit-link)    
 **💻 GitHub Repository:** [Click Here](your-github-link)
 
